@@ -1,2 +1,2 @@
 # aadhyaputtur
-personal_website
+Personal Website
