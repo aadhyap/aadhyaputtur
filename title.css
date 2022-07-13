@@ -10,7 +10,7 @@
     display: block;
     float: right;
     height: 50px;
-    width: 100px;
+    width: 200px;
     margin-left: 5px;
     background-color: black;
     text-align: center;
@@ -33,9 +33,27 @@
   background-color: #333;
   right;
 }
-.link {
+.about {
+  font-size: 25px;
   background-color: black;
-  background: linear-gradient(to right, #75FBC0 0% 1.19em, #75FBC0 1.9em 30%, #E45E75 0% 1.19em, #E45E75 1.9em 69%, #75FBC0 0% 1.19em, #75FBC0 1.9em 100%);
+  background: linear-gradient(to right, #75FBC0 0% , #75FBC0 32%, #E45E75 0% , #E45E75 67%, #75FBC0 68%, #75FBC0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.projects{
+  font-size: 25px;
+  background-color: black;
+  background: linear-gradient(to right, #75FBC0 0% , #75FBC0 25%, #E45E75 0% , #E45E75 74%, #75FBC0 75%, #75FBC0 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+
+}
+.experience{
+  font-size: 25px;
+  background-color: black;
+  background: linear-gradient(to right, #75FBC0 0% , #75FBC0 18%, #E45E75 0% , #E45E75 81%, #75FBC0 82%, #75FBC0 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
