@@ -4,6 +4,42 @@
 .background {
   background-color: black;
 }
+.navbar button {
+
+
+    display: block;
+    float: right;
+    height: 50px;
+    width: 100px;
+    margin-left: 5px;
+    background-color: black;
+    text-align: center;
+    line-height: 50px;
+
+   
+}
+
+
+.navbar button.last {
+    margin-right: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+.navbut {
+  background-color: black;
+  background-color: #333;
+  right;
+}
+.link {
+  background-color: black;
+  background: linear-gradient(to right, #75FBC0 0% 1.19em, #75FBC0 1.9em 30%, #E45E75 0% 1.19em, #E45E75 1.9em 69%, #75FBC0 0% 1.19em, #75FBC0 1.9em 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .header {
   padding: 90px;
   left;
@@ -19,10 +55,26 @@
   top: 0px;
   left;
 }
+.main{
+   float: right;
+   width: 100%;
+   margin: auto;
 
+}
+.prof{
+
+  float: right;
+  vertical-align: middle; 
+  margin-top: 100px;
+  padding:50px; 
+  
+
+}
 /* Increase the font size of the h1 element */
 .h1 {
   font-size: 40px;
   color: blue;
 }
+
+
 
