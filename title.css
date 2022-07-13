@@ -14,10 +14,10 @@
 
 }
 
-.prof {
-  padding: 90px;
-  right : 0;
-
+.logo{
+  position: absolute;
+  top: 0px;
+  left;
 }
 
 /* Increase the font size of the h1 element */
