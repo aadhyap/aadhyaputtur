@@ -116,13 +116,63 @@
 
 .vl {
   border-left: 4px solid white;
-  height: 140px;
+  height: 130px;
   position: absolute;
   left: 5%;
   margin-left: -3px;
   bottom: 0;
  
 }
+
+
+.container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        bottom: 0px;
+        left: -4.5%;
+
+      }
+
+.container img {
+        width: 25px;
+        height: 25px;
+        padding: 10px;
+        margin-left: 120px;
+        bottom: 140px;
+
+        position: relative;
+      }
+
+
+
+  .vlright {
+  border-right: 4px solid white;
+  height: 130px;
+  position: absolute;
+  left: 96%;
+  margin-right: -3px;
+  bottom: 0;
+ 
+}
+
+.email {
+font-style: "K2D";
+color: white;
+font-size: 30px;
+writing-mode: vertical-lr;
+position: relative;
+left: 96%;
+margin-right: -3px;
+bottom: 300px;
+
+
+
+}
+
+
+
 
 
 
