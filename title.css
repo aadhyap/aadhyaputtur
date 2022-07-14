@@ -102,8 +102,9 @@
   float: right;
   vertical-align: middle; 
   margin-top: 100px;
-  padding:50px; 
+  padding:100px; 
   right: -50px;
+
 
   
 
@@ -165,7 +166,7 @@ writing-mode: vertical-lr;
 position: relative;
 left: 96%;
 margin-right: -3px;
-bottom: 300px;
+bottom: 400px;
 
 
 
