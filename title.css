@@ -180,7 +180,7 @@
   left: 40px;
   bottom: 0;
   position: sticky;
-  margin-left: 20px;
+
  
 }
 
@@ -193,11 +193,11 @@
         width: 50px;
         height: 180px;
        
-        margin-left: -20px;
+        margin-left: 20px;
         
-        background-color: grey;
+        
 
-        position: sticky;
+        position: fixed;
 
       }
 
@@ -211,16 +211,26 @@
       }
 
 
-
-  .vlright {
-  border-right: 4px solid white;
-  height: 130px;
-
+.rightfoot{
+ 
+  bottom: 0px;
+  width: 15px;
+  height: 400px;
   left: 96%;
-  margin-right: -3px;
+  margin-right: 20px;
+   position: fixed;
+
+
+}
+  .vlright {
+  border-left: 4px solid white;
+  height: 90px;
+  bottom: 0px;
+  float: right;
   position: sticky;
  
 }
+
 
 .email {
 
@@ -228,10 +238,8 @@ font-style: "K2D";
 color: white;
 font-size: 30px;
 writing-mode: vertical-lr;
-left: 96%;
-margin-right: -3px;
 bottom: 0px;
-
+padding-right: 40px;
 position: sticky;
 
 
