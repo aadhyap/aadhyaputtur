@@ -4,13 +4,37 @@
 
 <body class = "background">
 
-<div class = "navbar">
-<button type="button" class="resume">Resume</button>
+<div class = "navbar" >
+<button type="button" class="resume" >Resume</button>
 <button type="button" ><div class = "experience"> &ltexperience&gt </div></button>
 <button type="button" ><div class = "projects"> &ltprojects&gt </div></button>
 <button type="button" ><div class = "about"> &ltabout&gt </div></button>
 
+<div class = "logo">
+<img src="images/logo.png" alt="logo">
 </div>
+
+</div>
+<script>
+// When the user scrolls the page, execute myFunction
+window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var navbar = document.getElementById("navbar");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
 <title>Title Page</title>
 
     <link rel="stylesheet" href="title.css">
@@ -34,22 +58,33 @@
 
 </div>
 
-<div class = "logo">
-<img src="images/logo.png" alt="logo">
-</div>
+
 
 <div class = "container">
 <img  src="images/github.png" >
 <img  src="images/linkedin.png" >
 <img  src="images/instagram.png" >
+
 </div>
+
 <div class="vl"></div>
 
-<div class = "email"> putturaadhya@gmail.com </div>
-
-<div class ="vlright"></div>
 
 
+<div class = "email"> putturaadhya@gmail.com <div class ="vlright"></div></div>
+
+<div class="project1">
+<div class = "lsg"> &lt<div class = "subj">projects</div>&gt </div>
+<div>
+
+<project>
+<h1 class = "ptitle">Mass General Brigham Hospital App</h1>
+<p class="briefdesc">Team Agile Angels</p>
+<div class = "desc"> Led the development of 20,000 line, full-stack Java application prototype as part of a 9 person, Agile Scrum team
+</div>
+
+
+</project>
 
 
 </body>

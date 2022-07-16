@@ -4,6 +4,15 @@
 .background {
   background-color: black;
 }
+.navbar {
+
+  top: 0;
+  position: sticky;
+  height: 50px;
+  background-color: black;
+
+
+}
 .navbar button {
 
 
@@ -11,12 +20,12 @@
     float: right;
     height: 50px;
     width: 200px;
-    margin-left: 5px;
     background-color: black;
     text-align: center;
     line-height: 50px;
     border-color: black;
     border-style: solid;
+  
 }
 
 .navbar button.resume {
@@ -26,7 +35,6 @@
     float: right;
     height: 50px;
     width: 200px;
-    margin-left: 5px;
     background-color: black;
     text-align: center;
     line-height: 50px;
@@ -35,25 +43,76 @@
     font-size: 25px;
     color:#E45E75;
     border-radius: 15px;
+ 
 }
 
-
-.navbar button.last {
-    margin-right: 10;
-}
 
 .clear {
     clear: both;
 }
 
-.navbut {
-  background-color: black;
-  background-color: #333;
-  right;
+.lsg{
+  font-size: 25px;
+
+  color: #75FBC0;
 }
+.subj{
+  font-size: 25px;
+
+  display: inline;
+  color:#E45E75;
+}
+
+
+.project1{
+  position: bottom:  -20px;
+  margin-left: 100px;
+
+
+}
+
+.ptitle{ 
+
+  font-style: "Partua One";
+  color: white;
+  font-size: 35px;
+
+
+}
+.briefdesc{
+  font-style: "K2D";
+  font-size: 25px;
+  color:#75FBC0;
+
+
+}
+
+.desc{
+
+
+  width: 800px;
+  border: 15px solid black;
+  padding: 20px;
+  height: 100px;
+ 
+  border-radius: 25px;
+  background-color: #E45E75;
+
+  font-style: "K2D";
+  font-size: 25px;
+  color:white;
+}
+.project{
+  padding-top: 30px;
+
+
+}
+
+
 .about {
   font-size: 25px;
   background-color: black;
+
   background: linear-gradient(to right, #75FBC0 0% , #75FBC0 32%, #E45E75 0% , #E45E75 67%, #75FBC0 68%, #75FBC0 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -62,6 +121,7 @@
 .projects{
   font-size: 25px;
   background-color: black;
+
   background: linear-gradient(to right, #75FBC0 0% , #75FBC0 25%, #E45E75 0% , #E45E75 74%, #75FBC0 75%, #75FBC0 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -71,6 +131,7 @@
 .experience{
   font-size: 25px;
   background-color: black;
+
   background: linear-gradient(to right, #75FBC0 0% , #75FBC0 18%, #E45E75 0% , #E45E75 81%, #75FBC0 82%, #75FBC0 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -87,14 +148,12 @@
 }
 
 .logo{
-  position: absolute;
+  position: sticky;
   top: 0px;
   left;
 }
 .main{
    float: right;
-   width: 100%;
-   margin: auto;
 
 }
 .prof{
@@ -118,32 +177,37 @@
 .vl {
   border-left: 4px solid white;
   height: 130px;
-  position: absolute;
-  left: 5%;
-  margin-left: -3px;
+  left: 40px;
   bottom: 0;
+  position: sticky;
+  margin-left: 20px;
  
 }
-
 
 .container {
         display: flex;
         flex-direction: column;
         align-items: center;
-        position: absolute;
+        align-self: flex-start;
         bottom: 0px;
-        left: -4.5%;
+        width: 50px;
+        height: 180px;
+       
+        margin-left: -20px;
+        
+        background-color: grey;
+
+        position: sticky;
 
       }
 
-.container img {
-        width: 25px;
-        height: 25px;
-        padding: 10px;
-        margin-left: 120px;
-        bottom: 140px;
 
-        position: relative;
+.container img {
+
+  width: 25px;
+  height: 25px;
+  padding: 10px;
+            
       }
 
 
@@ -151,23 +215,24 @@
   .vlright {
   border-right: 4px solid white;
   height: 130px;
-  position: absolute;
+
   left: 96%;
   margin-right: -3px;
-  bottom: 0;
+  position: sticky;
  
 }
 
 .email {
+
 font-style: "K2D";
 color: white;
 font-size: 30px;
 writing-mode: vertical-lr;
-position: relative;
 left: 96%;
 margin-right: -3px;
-bottom: 400px;
+bottom: 0px;
 
+position: sticky;
 
 
 }
