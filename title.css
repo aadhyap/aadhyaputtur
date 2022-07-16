@@ -110,6 +110,12 @@
 
 }
 
+.secproj{
+  position: relative;
+ 
+  height: 800px;
+  width: 100%;
+}
 
 .about {
   font-size: 25px;
