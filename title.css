@@ -104,8 +104,25 @@
   font-size: 25px;
   color:white;
 }
+
+.otherdesc{
+  display: inline;
+  width: 200px;
+  padding: 20px;
+  height: 200px;
+ 
+  border-radius: 25px;
+  background-color: #E45E75;
+
+  font-style: "K2D";
+  font-size: 20px;
+  color:white;
+}
+
+
 .project{
   padding-top: 30px;
+
 
 
 }
@@ -113,10 +130,18 @@
 .secproj{
   position: relative;
  
-  height: 800px;
+  height: 100%px;
   width: 100%;
+
 }
 
+.other{
+  font-style: "K2D";
+  font-size: 50px;
+  color:white;
+  text-align: center;
+
+}
 .about {
   font-size: 25px;
   background-color: black;
