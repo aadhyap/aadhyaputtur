@@ -106,16 +106,29 @@
 }
 
 .otherdesc{
-  display: inline;
-  width: 200px;
+ 
+  width: 250px;
   padding: 20px;
-  height: 200px;
+  height: 250px;
+  margin-left: 115px;
+
+  float: left;
+
  
   border-radius: 25px;
   background-color: #E45E75;
 
   font-style: "K2D";
   font-size: 20px;
+  color:white;
+
+}
+
+.titleother{
+
+  font-style: "Partua One";
+  font-size: 35px;
+  text-align: center;
   color:white;
 }
 
@@ -130,7 +143,7 @@
 .secproj{
   position: relative;
  
-  height: 100%px;
+  height: 70%px;
   width: 100%;
 
 }
