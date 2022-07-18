@@ -158,12 +158,71 @@
   border-color: black;
   border-left: 4px solid #E45E75;
   border-style: solid;
+  text-align: left;
+  height: 60px;
+  margin-bottom: 30px;
+
+
+}
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
 
 }
 
 button.expbut:hover{
   color:#75FBC0;
   border-left: 4px solid #75FBC0;
+}
+
+.exptitle{
+  font-style: "K2D";
+  font-size: 25px;
+  color:white;
+  text-align: left;
+
+}
+.company{
+  font-style: "K2D";
+  font-size: 25px;
+  color: #75FBC0;
+  text-align: left;
+
+}
+
+#p2{
+  display:inline;
+  }
+
+.dates{
+  font-style: "K2D";
+  font-size: 15px;
+  color: #E45E75;
+  text-align: left;
+  margin-top: -10px;
+
+}
+.expdesc{
+  font-style: "K2D";
+  font-size: 15px;
+  color: white;
+  text-align: left;
+
+}
+
+.arrow-right {
+   border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 10px solid #75FBC0;
+    border-top: 5px solid transparent;
+    display: inline-block;
+
+    transform: rotate(90deg);
+
+ 
 }
 
 
