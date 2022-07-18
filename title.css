@@ -143,10 +143,29 @@
 .secproj{
   position: relative;
  
-  height: 70%px;
+  height: 70%;
   width: 100%;
 
 }
+
+
+.expbut {
+  display: block;
+  font-style: "K2D";
+  font-size: 25px;
+  color:#E45E75;
+  background-color: black;
+  border-color: black;
+  border-left: 4px solid #E45E75;
+  border-style: solid;
+
+}
+
+button.expbut:hover{
+  color:#75FBC0;
+  border-left: 4px solid #75FBC0;
+}
+
 
 .other{
   font-style: "K2D";
