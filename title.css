@@ -174,9 +174,11 @@
 }
 
 button.expbut:hover{
-  color:#75FBC0;
-  border-left: 4px solid #75FBC0;
+  color:#75FBC0 !important;
+  border-left: 4px solid #75FBC0 !important;
 }
+
+
 
 .exptitle{
   font-style: "K2D";

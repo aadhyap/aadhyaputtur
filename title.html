@@ -139,16 +139,56 @@ function myFunction() {
 <div style="display: inline;">
 <div style="margin-left: 40px;height: 500px ;width: 280px;top:  300px ; position: relative;">
 
-<button type="button" class="expbut" >Undergraduate Research</button>
-<button type="button" class="expbut" >MIT Lincoln Labratory</button>
-<button type="button" class="expbut" >Raytheon BBN Technologies</button>
-<button type="button" class="expbut" >Resident Advisor</button>
-<button type="button" class="expbut" >Computer Science Tutor</button>
+<button type="button" class="expbut" id = "but1" onclick="showDiv('sec1', this.id)" >Undergraduate Research</button>
+<button type="button" class="expbut "  id = "but2"onclick="showDiv('sec2', this.id)">MIT Lincoln Labratory</button>
+<button type="button" class="expbut" id = "but3" onclick="showDiv('sec3', this.id)">Raytheon BBN Technologies</button>
+<button type="button" class="expbut" id = "but4"onclick="showDiv('sec4', this.id)">Resident Advisor</button>
+<button type="button" class="expbut" id = "but5"onclick="showDiv('sec5', this.id)">Computer Science Tutor</button>
+
+</div>
+
+<script type="text/javascript">
+
+
+
+function showDiv(sec, but) {
+    elem = ['sec1', 'sec2', 'sec3', 'sec4', 'sec5']
+    buts = ['but1', 'but2', 'but3', 'but4', 'but5']
+    document.getElementById(but).style.color = "#75FBC0";
+    document.getElementById(but).style.borderLeft = "4px solid #75FBC0";
+    if(document.getElementById(sec).style.display =="none"){
+
+     document.getElementById(sec).style.display = "block";
+    }
+    
+    for (let i = 0; i < elem.length; i++) {
+        if(elem[i] != sec){
+            document.getElementById(elem[i]).style.display = "none";
+            document.getElementById(buts[i]).style.color = "#E45E75";
+            document.getElementById(buts[i]).style.borderLeft = "4px solid #E45E75";
+
+            
+        }
+}
+
+}
+</script>
+<div  id = "sec1" style="margin-left: 400px;height: 430px ;width: 700px; bottom:  180px ; position: relative; display: block;">
+
+
+    <span class= "dot"></span>
+    <p id="p2" class = "exptitle">&nbsp&nbsp Full Stack Software Developer<p id="p2"class = "company">@ Worcester Polytechnic Institute </p></p>
+
+    <p class =dates>&emsp; &emsp; &ensp; June 2022 - Present</p>
+
+
+    <p class =expdesc style="margin-left: 50px"><span class = "arrow-right"></span>This is a current project I am working on with a professor in the Data Science Department in order to make an interactive platform for users to learn about Natural Language Processing, specifically word2vec</p>
+    
 
 </div>
 
 
-<div style="margin-left: 400px;height: 430px ;width: 500px; bottom:  180px ; position: relative; ">
+<div  id = "sec2" style="margin-left: 400px;height: 430px ;width: 500px; bottom:  180px ; position: relative; display: none;">
 
 
     <span class= "dot"></span>
@@ -157,7 +197,7 @@ function myFunction() {
     <p class =dates>&emsp; &emsp; &ensp; June 2022 - August 2022</p>
 
 
-    <p class =expdesc style="margin-left: 50px"><span class = "arrow-right"></span>Current Work</p>
+    <p class =expdesc style="margin-left: 50px"><span class = "arrow-right"></span>Working with Lidar data and modeling data using python and MATLAB</p>
 
 
     <span class= "dot" style="margin-top: 50px;"></span>
@@ -168,14 +208,65 @@ function myFunction() {
 
     <p class =expdesc style="margin-left: 50px"><span class = "arrow-right"></span> Assembled a coffee can radar and implemented it to work with the Arduino MKRZero. </p>
     <p class =expdesc style="margin-left: 50px"><span class = "arrow-right"></span>Researched on serial communication, USB communication, data transfer, and  programmed in MATLAB. </p>
-  
-  
 
-    
+</div>
 
+<div  id = "sec3" style=" margin-left: 400px;height: 430px ;width: 700px; bottom:  180px ; position: relative; display: none; ">
+
+
+    <span class= "dot"></span>
+    <p id="p2" class = "exptitle">&nbsp&nbsp Research Technical Intern <p id="p2"class = "company">@ Raytheon BBN Technologies </p></p>
+
+    <p class =dates>&emsp; &emsp; &ensp; May 2020 - August 2020</p>
+
+    <p class =expdesc style="margin-left: 50px"><span class = "arrow-right"></span> Worked on the hierarchical task network (HTN) for swarms of drones: implemented the halt command </p>
+    <p class =expdesc style="margin-left: 50px"><span class = "arrow-right"></span>Combined the communication flow with the live database with the HTN using MySQL </p>
+
+
+
+    <span class= "dot" style="margin-top: 50px;"></span>
+    <p id="p2" class = "exptitle">&nbsp&nbsp Software Engineer<p id="p2"class = "company">@ Raytheon BBN Technologies</p></p>
+
+    <p class =dates>&emsp; &emsp; &ensp; June 2019 - August 2019 </p>
+
+
+    <p class =expdesc style="margin-left: 50px"><span class = "arrow-right"></span> Implemented a communication flow between a drone called the Skydio with a drone using a different interface through TCP connections and multithreading. </p>
+    <p class =expdesc style="margin-left: 50px"><span class = "arrow-right"></span>Involved communicating between Java and Python and sending and receiving data from a raspberry pi </p>
+
+</div>
+
+
+<div  id = "sec4" style=" margin-left: 400px;height: 430px ;width: 700px; bottom:  180px ; position: relative; display: none; ">
+
+
+    <span class= "dot"></span>
+    <p id="p2" class = "exptitle">&nbsp&nbsp Resident Advisor <p id="p2"class = "company">@ Worcester Polytechnic Institute </p></p>
+
+    <p class =dates>&emsp; &emsp; &ensp; August 2020 - Present</p>
+
+    <p class =expdesc style="margin-left: 50px"><span class = "arrow-right"></span> Foster a community in freshmen and upperclassment dorms at university</p>
+    <p class =expdesc style="margin-left: 50px"><span class = "arrow-right"></span> Plan community builders and build relationship with students </p>
+
+</div>
+
+<div  id = "sec5" style=" margin-left: 400px;height: 430px ;width: 700px; bottom:  180px ; position: relative; display: none; ">
+
+
+    <span class= "dot"></span>
+    <p id="p2" class = "exptitle">&nbsp&nbsp Computer Science Tutor <p id="p2"class = "company">@ Varsity Tutors </p></p>
+
+    <p class =dates>&emsp; &emsp; &ensp; August 2021 - March 2022</p>
+
+    <p class =expdesc style="margin-left: 50px"><span class = "arrow-right"></span> Tutored computer science undergraduate students on various computer science concepts in Java, C, and python</p>
 
 
 </div>
+
+
+
+
+
+
 
 </div>
 
