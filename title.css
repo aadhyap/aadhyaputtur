@@ -389,6 +389,21 @@ position: sticky;
   margin-right: 100px;
 }
 
+.vltop {
+  border-top: 5px solid #75FBC0;
+  height: 30px;
+  width: 1100px;
+ 
+  position: relative;
+  margin-left: 10px;
+  margin-top: 0px;
+  bottom: -20px;
+  display: inline-block;
+
+
+ 
+}
+
 
 
 
